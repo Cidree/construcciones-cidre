@@ -1,0 +1,10 @@
+# La web se renderiza en local con Quarto (Netlify no tiene R ni Quarto).
+# Netlify solo publica la carpeta _site ya generada.
+[build]
+  publish = "_site"
+  command = ""
+
+[[headers]]
+  for = "/site_libs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

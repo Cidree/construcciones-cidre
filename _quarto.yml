@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+  resources:
+    - images/
+
+lang: es
+
+website:
+  title: "Construcciones y Reformas Cidre"
+  description: "Albañilería, reformas, piedra, tejados y obra nueva en Escairón (O Saviñao), Monforte de Lemos y la Ribeira Sacra. Empresa familiar. Presupuesto sin compromiso."
+  favicon: images/logo.svg
+  page-navigation: false
+  navbar:
+    logo: images/logo.svg
+    logo-alt: "Logotipo de Construcciones y Reformas Cidre"
+    title: "Construcciones Cidre"
+    collapse-below: lg
+    right:
+      - text: "Servicios"
+        href: "#servicios"
+      - text: "Trabajos"
+        href: "#trabajos"
+      - text: "Nosotros"
+        href: "#nosotros"
+      - text: "Zona"
+        href: "#zona"
+      - text: "Contacto"
+        href: "#contacto"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/theme.scss
+    page-layout: custom
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    lightbox: true
+    link-external-newwindow: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
