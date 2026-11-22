@@ -10,8 +10,8 @@ empresa:
 
 contacto:
   telefono: "680 546 523"          # cómo se muestra
-  telefono_enlace: "+3468054653"  # para el enlace tel: (sin espacios)
-  whatsapp: "3468054653"          # prefijo 34 + número, sin "+" ni espacios
+  telefono_enlace: "+34680546523"  # para el enlace tel: (sin espacios)
+  whatsapp: "34680546523"         # prefijo 34 + número, sin "+" ni espacios
   email: "info@construccionescidre.es"
   direccion: "Rúa Principal s/n, 27540 Escairón (O Saviñao), Lugo"
   horario: "Lunes a viernes, de 8:00 a 19:00"

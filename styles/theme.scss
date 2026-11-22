@@ -276,7 +276,7 @@ h2 { border-bottom: none; padding-bottom: 0; }
 
 // ---------- WhatsApp flotante ----------
 a.whatsapp-flotante {
-  position: fixed; right: 18px; bottom: 18px; z-index: 1050;
+  position: fixed; left: 18px; bottom: 18px; z-index: 1050;
   width: 60px; height: 60px; border-radius: 50%;
   background: #25D366; color: #fff !important;
   display: grid; place-items: center;
